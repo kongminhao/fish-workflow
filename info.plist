@@ -104,7 +104,7 @@ fi</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>一键贴图，上传到七牛云</string>
+	<string>摸鱼是快乐的，所以要简单的摸鱼</string>
 	<key>uidata</key>
 	<dict>
 		<key>01F87EBF-46C7-4067-B13B-F7D57959D2E7</key>
@@ -122,6 +122,10 @@ fi</string>
 			<integer>145</integer>
 		</dict>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>0.0.1</string>
 	<key>webaddress</key>
 	<string>https://printf520.com</string>
 </dict>
