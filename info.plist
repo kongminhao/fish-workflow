@@ -117,9 +117,9 @@ fi</string>
 		<key>724367DB-4816-46E3-BAF8-D1E621F64B1A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>445</integer>
+			<integer>425</integer>
 			<key>ypos</key>
-			<integer>145</integer>
+			<integer>30</integer>
 		</dict>
 	</dict>
 	<key>variablesdontexport</key>

@@ -9,7 +9,7 @@ query = sys.argv[1]
 
 
 def get_hot_data():
-    url = "https://www.printf520.com:8080/GetTypeInfo?id={}".format(query)
+    url = "https://www.tophub.fun:8080/GetAllInfoGzip?id={}".format(query)
     data = web.get(url).json()
     return data
 
@@ -17,7 +17,7 @@ def get_hot_data():
 def main(wf):
     data = wf.cached_data('hotdata-{}'.format(query), get_hot_data, max_age=30)
     for each in data["Data"]:
-        wf.add_item(each['title'], arg=each['url'], icon="fish.png", valid=True)
+        wf.add_item(each['Title'], arg=each['Url'], icon="fish.png", valid=True)
     wf.send_feedback()
 
 

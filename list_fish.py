@@ -9,7 +9,7 @@ wf = workflow.Workflow3()
 
 
 def get_fish_data():
-    data = web.get('https://www.printf520.com:8080/GetType').json()
+    data = web.get('https://www.tophub.fun:8080/GetType').json()
     return data
 
 
